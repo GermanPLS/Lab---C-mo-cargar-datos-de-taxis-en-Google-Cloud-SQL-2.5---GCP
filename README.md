@@ -13,3 +13,30 @@ Crear una instancia de Cloud SQL
 Crear una base de datos de Cloud SQL
 Importar datos de texto a Cloud SQL
 Verificar la integridad de los datos
+
+url: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+
+Diccionario: https://www1.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
+
+#
+# Laboratorio
+
+# Tarea 1: Prepara tu entorno
+
+Crea las variables de entorno que se usarán más adelante en el lab para el ID de tu proyecto y el bucket de almacenamiento que contendrá tus datos:
+
+```bash
+export PROJECT_ID=$(gcloud info --format='value(config.project)')
+export BUCKET=${PROJECT_ID}-ml
+```
+
+
+
+
+
+#
+## 📌 Autor
+
+Este repositorio fue creado y documentado por **German Leventan Sago**  
+📅 Fecha: Junio 2025  
+🔗 Perfil de GitHub: [github.com/germanleventan](https://github.com/GermanPLS)
